@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".it">
+
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/spinner1"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="40dp"
+            android:background="#EFE7E7"
+            android:elevation="8dp"
+            />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/spinner2"
+            android:layout_below="@id/spinner1"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="40dp"
+            android:background="#EFE7E7"
+            android:elevation="8dp"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/spinner3"
+            android:layout_below="@id/spinner2"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="40dp"
+            android:background="#EFE7E7"
+            android:elevation="8dp"
+            />
+
+
+
+
+        <com.ortiz.touchview.TouchImageView
+            android:id="@+id/tt_img"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/spinner3"
+
+
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_below="@+id/tt_img"
+            android:layout_width="160dp"
+            android:layout_height="45dp"
+            android:text="Set Reminder"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            />
+
+</RelativeLayout>
